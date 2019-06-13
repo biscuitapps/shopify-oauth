@@ -1,0 +1,26 @@
+{
+  "name": "shopify-oauth",
+  "version": "1.0.0",
+  "description": "Shopify OAuth endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biscuitapps/shopify-oauth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biscuitapps/shopify-oauth/issues"
+  },
+  "homepage": "https://github.com/biscuitapps/shopify-oauth#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cookie": "^0.4.0",
+    "nonce": "^1.0.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
