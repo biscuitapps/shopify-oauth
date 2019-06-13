@@ -1,7 +1,7 @@
 {
   "name": "shopify-oauth",
-  "version": "1.0.0",
-  "description": "Shopify OAuth endpoints",
+  "version": "0.9.0",
+  "description": "Shopify OAuth router",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
