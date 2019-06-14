@@ -5,6 +5,7 @@ The code adapted from the Shopify help manual: https://help.shopify.com/en/api/t
 
 # Installation
 Install with npm: ```npm install biscuitapps/shopify-oauth#v0.9.0```
+
 Add directly to dependencies section of package.json: ```"shopify-oauth": "github:biscuitapps/shopify-oauth#v0.9.0"```
 
 # Usage
