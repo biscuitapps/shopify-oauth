@@ -32,7 +32,7 @@ Not a lot is planned as this package is supposed to stay small but for the versi
 # License
     MIT License
 
-    Copyright (c) [year] [fullname]
+    Copyright (c) 2019 Jacek Mech
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
