@@ -69,16 +69,7 @@ module.exports = (config, callback) => {
 
             request.post(accessTokenRequestUrl, { json: accessTokenPayload })
                 .then((accessTokenResponse) => {
-
-                    const accessToken = accessTokenResponse.access_token;
-                    const locale = accessTokenResponse.associated_user.locale;
-
-                    res.cookie('accessToken', accessToken);
-                    res.cookie('locale', locale);
-                    res.cookie('shopOrigin', shop);
-
-                    callback(shop, accessTokenResponse);
-
+                    callback(shop, accessTokenResponse, req, res);
                     res.redirect('/');
                 })
                 .catch((error) => {
